@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<>();
         for (int i = 0; i<10; i++){
-            integers.add(new Random().nextInt(10));
+            integers.add(new Random().nextInt(50));
         }
         System.out.println("Список чисел: " + integers);
         int min = 51;
