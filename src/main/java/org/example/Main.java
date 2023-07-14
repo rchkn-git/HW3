@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -33,7 +32,6 @@ public class Main {
         for (int i = 0; i < integers.size(); i++){
             if (integers.get(i) % 2 == 0){
                 integers.remove(i);
-//                i =- 1;
             }
 
         }
